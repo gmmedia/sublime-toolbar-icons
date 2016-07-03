@@ -1,0 +1,45 @@
+[
+    {
+        "id": "help"
+    },
+    {
+        "id": "folders", "caption": "-"
+    },
+
+    {
+        "command": "new_file",
+        "caption": "📄"},
+    {
+        "command": "save",
+        "caption": "💾"},
+    {
+        "command": "clone_file",
+        "caption": "♋"},
+    {
+        "command": "undo",
+        "caption": "◀"},
+    {
+        "command": "redo",
+        "caption": "▶"},
+    {
+        "caption": "⬜",
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+        }
+    },
+    {
+        "caption": "📖",
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    }
+
+]
